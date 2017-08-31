@@ -1,0 +1,241 @@
+.single-programs {
+    .price-fee {
+        padding: 10px 0px;
+        border-bottom: 4px solid $color_blue;
+        margin: 0 auto;
+        max-width: 100px;
+        font-size: 40px;
+    }
+}
+
+
+// programs scss start
+.single-youthprogram,
+.single-programs {
+    section {
+        padding: 50px 20px;
+    }
+    .section01{
+        padding-top: 10px;
+    }
+    .content-container{
+        padding-top: 20px;
+    }
+    .section03 {
+        background-color: #F9F9F9;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    .section02,
+    .section03,
+    .commit,
+    .application {
+        p {
+            margin-top: 5px;
+        }
+    }
+    .application {
+        p {
+            margin-bottom: 0px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .text{
+            @include btn;
+            padding: 20px;
+        }
+    }
+    .topbanner {
+
+        img{
+            object-fit: cover;
+        }
+    }
+    .content-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    .sidebar {
+        visibility: hidden;
+        height: 0;
+        @media all and (min-width: 700px) {
+            visibility: visible;
+            height: auto;
+            width: 25%;
+            ul {
+                list-style-type: none;
+                border: 1px solid $color_underline;
+                padding: 0 10px;
+                margin-left: 20px;
+                border-radius: 2px;
+                position: sticky;
+                top: 100px;
+                margin-top: 20px;
+            }
+            li {
+                padding: 8px 0;
+                color: gray;
+                &:hover{
+                    color:$color_blue;
+                }
+            }
+           @include hover;
+        }
+    }
+    .menu-list:hover {
+        color: red;
+    }
+    .main-content {
+        width: 100%;
+        padding: 0;
+        @media all and (min-width: 700px) {
+            width: 75%;
+        }
+    }
+    .application {
+        margin-bottom: 0;
+        font-size: 24px; // text-align: center;
+        p {
+            font-size: 16px;
+        }
+    }
+    .first-content {
+        background-color: white;
+        padding: 0 15px;
+        p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .ins-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media all and (min-width: 700px) {
+        padding: 0 85px;}
+        img {
+            border-radius: 100px;
+            width: 200px;
+        }
+        p {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: $color_blue;
+        }
+    }
+    .gain {
+        ul {
+            margin: 0;
+        }
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .icon-main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-group1,
+    .icon-group2 {
+        width: 100%;
+        @media all and (min-width: 700px) {
+            width: 50%;
+            padding: 0 15px;
+        }
+    }
+    .testimonial {
+        @include testimonial;
+    }
+    .schedule-dates {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .curr-list,
+    .faq-list {
+        a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: $color_blue;
+            }
+        }
+        div {
+            border-bottom: 1px solid $color_underline;
+            padding: 20px 0;
+        }
+        .sh-content {
+            padding: 10px;
+            background-color: $color_underline;
+        }
+        #post1-link-52,
+        #post9-link-52 {
+            border-top: 1px solid $color_underline;
+        }
+    }
+    .price {
+        background-color: #e5e5e5;
+    }
+    .price-t {
+        background-color: #46c5e1;
+        font-size: 40px;
+        color: white;
+        padding: 30px 0;
+    }
+    .price-container {
+        background-color: white;
+    }
+    .price-container,
+    .price-t {
+        text-align: center;
+        width: 300px;
+    }
+    .price-content {
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    .price-p {
+        color: grey;
+        font-size: 12px;
+    }
+    .faq-contact {
+        text-align: center;
+        margin-top: 80px;
+        @include hover;
+        a {
+           @include btn;
+           padding: 20px;
+        &:hover{
+            color: white;
+        }
+        }
+    }
+    .location-content {
+        a {
+            text-decoration: none;
+            color: $color_blue;
+            &:hover {
+                color: $color_light_blue;
+            }
+        }
+        @media all and (min-width: 700px) {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 50%;
+            }
+        }
+    }
+}

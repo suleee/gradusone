@@ -1,0 +1,46 @@
+[INFO]-[2017/07/31 06:01:24] Verifying existing clones...
+[INFO]-[2017/07/31 06:01:24] Existing clones verified!
+[INFO]-[2017/07/31 06:01:24] Verifying existing clones...
+[INFO]-[2017/07/31 06:01:24] Existing clones verified!
+[INFO]-[2017/07/31 06:01:17] Creating table wpstg1_commentmeta like wp_commentmeta
+[INFO]-[2017/07/31 06:01:18] Creating table wpstg1_comments like wp_comments
+[INFO]-[2017/07/31 06:01:18] Copying wp_comments as wpstg1_comments between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:18] Creating table wpstg1_links like wp_links
+[INFO]-[2017/07/31 06:01:19] Creating table wpstg1_options like wp_options
+[INFO]-[2017/07/31 06:01:19] Copying wp_options as wpstg1_options between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:21] Creating table wpstg1_postmeta like wp_postmeta
+[INFO]-[2017/07/31 06:01:21] Copying wp_postmeta as wpstg1_postmeta between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:21] Creating table wpstg1_posts like wp_posts
+[INFO]-[2017/07/31 06:01:22] Copying wp_posts as wpstg1_posts between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:22] Creating table wpstg1_term_relationships like wp_term_relationships
+[INFO]-[2017/07/31 06:01:23] Copying wp_term_relationships as wpstg1_term_relationships between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:23] Creating table wpstg1_term_taxonomy like wp_term_taxonomy
+[INFO]-[2017/07/31 06:01:24] Copying wp_term_taxonomy as wpstg1_term_taxonomy between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:24] Creating table wpstg1_termmeta like wp_termmeta
+[INFO]-[2017/07/31 06:01:24] Creating table wpstg1_terms like wp_terms
+[INFO]-[2017/07/31 06:01:25] Copying wp_terms as wpstg1_terms between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:25] Creating table wpstg1_usermeta like wp_usermeta
+[INFO]-[2017/07/31 06:01:25] Copying wp_usermeta as wpstg1_usermeta between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:25] Creating table wpstg1_users like wp_users
+[INFO]-[2017/07/31 06:01:26] Copying wp_users as wpstg1_users between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:17] Creating table wpstg1_commentmeta like wp_commentmeta
+[INFO]-[2017/07/31 06:01:18] Creating table wpstg1_comments like wp_comments
+[INFO]-[2017/07/31 06:01:18] Copying wp_comments as wpstg1_comments between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:18] Creating table wpstg1_links like wp_links
+[INFO]-[2017/07/31 06:01:19] Creating table wpstg1_options like wp_options
+[INFO]-[2017/07/31 06:01:19] Copying wp_options as wpstg1_options between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:21] Creating table wpstg1_postmeta like wp_postmeta
+[INFO]-[2017/07/31 06:01:21] Copying wp_postmeta as wpstg1_postmeta between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:21] Creating table wpstg1_posts like wp_posts
+[INFO]-[2017/07/31 06:01:22] Copying wp_posts as wpstg1_posts between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:22] Creating table wpstg1_term_relationships like wp_term_relationships
+[INFO]-[2017/07/31 06:01:23] Copying wp_term_relationships as wpstg1_term_relationships between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:23] Creating table wpstg1_term_taxonomy like wp_term_taxonomy
+[INFO]-[2017/07/31 06:01:24] Copying wp_term_taxonomy as wpstg1_term_taxonomy between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:24] Creating table wpstg1_termmeta like wp_termmeta
+[INFO]-[2017/07/31 06:01:24] Creating table wpstg1_terms like wp_terms
+[INFO]-[2017/07/31 06:01:25] Copying wp_terms as wpstg1_terms between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:25] Creating table wpstg1_usermeta like wp_usermeta
+[INFO]-[2017/07/31 06:01:25] Copying wp_usermeta as wpstg1_usermeta between 0 to 1000 records
+[INFO]-[2017/07/31 06:01:25] Creating table wpstg1_users like wp_users
+[INFO]-[2017/07/31 06:01:26] Copying wp_users as wpstg1_users between 0 to 1000 records

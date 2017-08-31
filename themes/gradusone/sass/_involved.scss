@@ -1,0 +1,68 @@
+.page-id-208 {
+    .volunteer-container {
+        @media all and (min-width: 700px) {
+            display: flex;
+        }
+    }
+    .posts,
+    .p_under_the_herobanner,
+    .volunteer-container {
+        padding: 0 25px;
+        @media all and (min-width: 700px) {
+            padding: 0;
+        }
+        max-width: 900px;
+        margin: 80px auto;
+    }
+    .p_under_the_herobanner {
+        margin-top: 50px;
+    }
+    .volunteer-bg {
+        background-color: $color__background-screen;
+        padding: 1px 0;
+    }
+    .volunteer-right {
+        width: 60%;
+        margin-left: 30px;
+        margin-top: 20px;
+        @media all and (min-width: 700px) {
+            margin-top: 0px;
+        }
+    }
+    .volunteer-left {
+        margin: 0 auto;
+
+        padding: 20px;
+        @media all and (min-width: 700px) {
+            height: 450px;
+            width: 400px;
+        }
+        p {
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 500;
+        }
+        span {
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 100;
+        }
+        @media all and (min-width: 700px) {
+            width: 40%;
+        }
+    }
+    .volunteer_img {
+        margin-top: 15px;
+    }
+    .volunteer-left {
+        background-color: $color_blue;
+        color: white;
+    }
+    .volunteer-right{
+
+       @include hover;
+    }
+    .p_under_the_herobanner, .volunteer-container{
+        padding: 0 20px;
+    }
+}

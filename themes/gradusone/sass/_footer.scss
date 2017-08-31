@@ -1,0 +1,112 @@
+footer {
+    background-color: #2D3038; // text-align: center;
+    .widget-menu {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        @media all and (min-width: 800px) {
+            width: 50%;
+        }
+    }
+    .widget-footer h2 {
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        color: $color_blue;
+    }
+    .footer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .nav_menu-02 {
+        width: 50%;
+    }
+    .menu-footer-container {
+        padding-left: 20px;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            padding: 0;
+            a {
+                text-decoration: none;
+                color: $color_blue;
+            }
+        }
+    }
+    .submit p {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: $color_blue;
+    }
+    .join-btn {
+        @media all and (min-width: 800px) {
+            margin-top: 2px;
+            padding-top: 0;
+            width: 45%;
+        }
+        a {
+            @include btn;
+            padding: 10px 20px;
+        }
+    }
+    .input-container {
+        display: flex;
+        justify-content: center;
+        padding: 0 40px;
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        input {
+            width: 59%;
+            @media all and (min-width: 800px) {
+                width: 50%;
+            }
+        }
+    }
+    .widget-footer {
+        width: 50%;
+        padding-right: 10px;
+        a {
+            color: $color_blue;
+            text-decoration: none;
+        }
+        &:hover {
+            color: $color_light_blue;
+        }
+    }
+    .textwidget {
+        color: white;
+        font-weight: 200;
+        p {
+            margin: 0;
+        }
+        .sns a{
+            color: white;
+        }
+    }
+    .footer-menu {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        @media all and (min-width: 800px) {
+            margin-top: 0px;
+            width: 50%;
+        }
+    }
+    .sns {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-top: 20px;
+    }
+}

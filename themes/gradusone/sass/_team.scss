@@ -1,0 +1,104 @@
+.page-id-134 {
+    .first-content-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    // .first-content {
+    //     margin: 50px 0;
+    // }
+    .infographic {
+        width: 500px;
+    }
+    .infographic-text {
+        // background-color: $color_blue;
+        // color: white;
+        font-size: 24px;
+    }
+    .team-m-container {
+        @include section;
+padding: 50px 20px;
+        .title-underline {
+            margin-bottom: 10px;
+        }
+    }
+    .team-member-section {
+        background-color: $color__background-pre;
+    }
+    .mentor-section {
+        @include section;
+    }
+    .team-members {
+        .thumbnail {
+            width: 100%;
+            @media all and (min-width: 700px) {
+                width: 30%;
+            }
+            img {
+                width: 190px;
+                border-radius: 100px;
+            }
+        }
+    }
+    .team-content {
+        width: 100%;
+        @media all and (min-width: 700px) {
+            width: 70%;
+        }
+        h2 {
+            padding-bottom: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin: 0 auto;
+        border-bottom: 1px solid $color_underline;
+        margin-bottom: 30px;
+        padding: 35px 0;
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+    }
+    .mentor-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .mentors {
+        width: 25%;
+        text-align: center;
+        margin: 0 10px;
+        img {
+            width: 190px;
+            border-radius: 100px;
+        }
+        @include hover;
+    }
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-text-container {
+        width: 87%;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .posts {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .chat_us_container {
+        @include section;
+    }
+   .first-content-container, .mentor-section{
+    padding: 50px 20px;
+   }
+}

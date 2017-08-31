@@ -1,0 +1,49 @@
+.main-navigation {
+        position: absolute;
+        background: $color_blue;
+        box-shadow: 0px 0px 2px #006973;
+        height: 60px;
+        top: 0;
+}
+
+.menu li {
+        padding: 50px 20px;
+}
+
+.site-info {
+        padding-top: 400px;
+}
+
+.right-menu {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        img {
+                width: 150px;
+                padding-top: 5px;
+        }
+}
+
+.menu-menu-1-container {
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+        padding-top: 5px;
+        li {
+                padding: 15px 20px;
+                color: white;
+        }
+}
+
+.right-menu button {
+        display: none;
+}
+
+.menu-toggle {
+        display: none;
+}
+
+#responsive-menu-button {
+        top: 7px!important;
+}

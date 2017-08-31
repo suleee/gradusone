@@ -1,0 +1,113 @@
+.home {
+    h2 {
+        @include header-text;
+    }
+    h1 {
+        @include herobanner-title;
+    }
+    .banner-text {
+        top: 20%;
+        @media all and (min-width: 700px) {
+            top: 30%;
+        }
+        .title-underline {
+            margin-top: 15px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+    article {
+        display: none;
+    }
+    .title {
+        padding-bottom: 40px;
+    }
+    .posts {
+        padding: 0 25px;
+        min-width: 300px;
+        margin: 50px auto;
+        @media all and (min-width: 700px) {
+            max-width: 900px;
+        }
+        .title {
+            text-align: center;
+        }
+        .underline01 {
+            margin: 0 auto;
+        }
+    }
+    .first-section {
+        @media all and (min-width: 700px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .first-section-post {
+        padding-bottom: 60px;
+        p {
+            height: 140px;
+        }
+        @media all and (min-width: 700px) {
+            width: 30%;
+            text-align: center;
+            padding-bottom: 0px;
+            p {
+                height: 220px;
+            }
+        }
+    }
+    .view-more {
+        display: flex;
+        justify-content: center;
+        padding: 0 15px;
+        margin-top: 20px;
+        a {
+            @include btn;
+            padding: 11px 28px;
+            @media all and (min-width: 700px) {
+                padding: 24px 50px;
+            }
+        }
+    }
+    .section03 {
+        padding: 2px 0;
+        background-color: $color__background-screen;
+    }
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .icon-main-container {
+        margin: 0 auto;
+        max-width: 900px;
+        text-align: center;
+    }
+    .cover {
+        .underline02 {
+            margin: 0 auto;
+        }
+    }
+    .icon-container {
+        width: 30%;
+        width: 100%;
+        @media all and (min-width: 700px) {
+            width: 30%;
+        }
+    }
+    .icon-group1,
+    .icon-group2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .testimonial {
+        p {
+            padding: 0 20px;
+        }
+        @include testimonial;
+    }
+    .easylogo {
+        padding-left: 20px;
+    }
+}
