@@ -24,7 +24,7 @@ get_header(); ?>
                    <section class="content-container">
                       <nav class="sidebar">
                         <ul>
-                            <a href="#overview" class="overview"><li>Overview</li></a>
+                            <a href="#overview" class="overview"><li>Exploration Bootcamp</li></a>
                             <a href="#uncover" class="menu-list"><li>What you will uncover</li></a>
                             <a href="#access"><li>What you will access</li></a>
                             <a href="#gain" class="gain"><li>What You Will Gain</li></a>
